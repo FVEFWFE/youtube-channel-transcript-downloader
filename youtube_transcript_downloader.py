@@ -2,159 +2,292 @@
 """
 youtube_transcript_downloader.py
 --------------------------------
-Download **all available transcripts** from a single YouTube channel,
-then combine them into one text file with clear section headers that
-show the video titles.
+Download **all available transcripts** from a single YouTube channel
+using yt-dlp (no API key required), then save each transcript as an
+individual text file and also combine them into one master file.
 
 Requirements
 ------------
-pip install google-api-python-client youtube-transcript-api
+pip install yt-dlp
 
 Usage
 -----
-1. Create a Google Cloud project and enable “YouTube Data API v3”.
-2. Generate an **API key** (no OAuth needed) and paste it below.
-3. Paste the **channel ID** (begins with “UC…”) for the channel you want.
-4. Run:  python youtube_transcript_downloader.py
-   – A file called ``all_transcripts.txt`` will be created in the same folder.
+1. Set CHANNEL_URL below to the target channel's video tab URL.
+2. Run:  python youtube_transcript_downloader.py
+   - Individual transcripts go into ./transcripts/<video_id>.txt
+   - A combined file is written to ./all_transcripts.txt
 
 Notes
 -----
-* Only videos with transcripts (manual or auto-generated) are included.
-* Each transcript is stored under a header like:
-      ========== [Title] ==========
-* API quota usage: ~100 units per 100 videos.
+* Uses yt-dlp for both channel listing and subtitle extraction.
+* No YouTube Data API key or OAuth is needed.
+* Only videos with English subtitles (manual or auto-generated) are included.
+* Each transcript file starts with the video title as a header.
 """
 
 from __future__ import annotations
 
-from googleapiclient.discovery import build
-from youtube_transcript_api import YouTubeTranscriptApi
-from typing import List, Optional
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+from pathlib import Path
+from typing import List, Optional, Tuple
 
 # ---------------------------------------------------------------------------
-# 🔧 User-supplied settings – **EDIT THESE TWO LINES** before running
+# Configuration
 # ---------------------------------------------------------------------------
-API_KEY: str = ""          # ← paste your YouTube Data API v3 key here
-CHANNEL_ID: str = ""       # ← paste the “UC…” channel ID here
+CHANNEL_URL: str = "https://www.youtube.com/@AlexHormozi/videos"
+OUTPUT_DIR: str = "transcripts"
+COMBINED_FILE: str = "all_transcripts.txt"
+SUBTITLE_LANG: str = "en"
 # ---------------------------------------------------------------------------
 
 
-# Create a YouTube API client using the simple API-key flow
-youtube = build("youtube", "v3", developerKey=API_KEY)
-
-
-def get_all_video_ids(channel_id: str) -> List[str]:
+def get_all_videos(channel_url: str) -> List[Tuple[str, str]]:
     """
-    Return a list of every video ID published by the given channel.
-
-    Parameters
-    ----------
-    channel_id : str
-        YouTube channel ID (starts with “UC…”).
+    Fetch all video IDs and titles from a YouTube channel using yt-dlp
+    flat-playlist mode (fast, no per-video page load).
 
     Returns
     -------
-    List[str]
-        Video IDs in newest-first order.
+    List of (video_id, title) tuples.
     """
-    video_ids: List[str] = []
-    next_page: Optional[str] = None
+    cmd = [
+        "yt-dlp",
+        "--no-check-certificates",
+        "--flat-playlist",
+        "--print", "%(id)s\t%(title)s",
+        channel_url,
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
 
-    while True:
-        resp = (
-            youtube.search()
-            .list(
-                channelId=channel_id,
-                part="id",
-                order="date",
-                maxResults=50,        # API maximum per page
-                pageToken=next_page,
-            )
-            .execute()
+    if result.returncode != 0:
+        print(f"[ERROR] Failed to list channel videos:\n{result.stderr}", file=sys.stderr)
+        sys.exit(1)
+
+    videos = []
+    for line in result.stdout.strip().split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split("\t", 1)
+        if len(parts) == 2:
+            video_id, title = parts
+            videos.append((video_id.strip(), title.strip()))
+
+    return videos
+
+
+def clean_vtt(vtt_text: str) -> str:
+    """
+    Convert raw VTT subtitle text into clean, readable plaintext.
+
+    Removes timestamps, positioning metadata, duplicate lines from
+    the rolling-caption format, and inline timing tags.
+    """
+    lines = vtt_text.split("\n")
+    cleaned = []
+    seen = set()
+
+    for line in lines:
+        # Skip VTT header, blank lines, and timestamp/position lines
+        if line.startswith("WEBVTT"):
+            continue
+        if line.startswith("Kind:") or line.startswith("Language:"):
+            continue
+        if re.match(r"^\d{2}:\d{2}:\d{2}\.\d{3}\s*-->", line):
+            continue
+        if not line.strip():
+            continue
+
+        # Remove inline timing tags like <00:00:01.234><c> </c>
+        text = re.sub(r"<\d{2}:\d{2}:\d{2}\.\d{3}>", "", line)
+        text = re.sub(r"</?c>", "", text)
+        # Remove alignment/position metadata
+        text = re.sub(r"align:\S+", "", text)
+        text = re.sub(r"position:\S+", "", text)
+        text = text.strip()
+
+        if not text:
+            continue
+
+        # Deduplicate rolling captions (VTT repeats lines as they scroll)
+        if text not in seen:
+            seen.add(text)
+            cleaned.append(text)
+
+    return " ".join(cleaned)
+
+
+def download_subtitle(video_id: str, temp_dir: str) -> Optional[str]:
+    """
+    Download the English subtitle for a single video using yt-dlp.
+
+    Returns the cleaned transcript text, or None if unavailable.
+    """
+    output_template = os.path.join(temp_dir, f"{video_id}.%(ext)s")
+
+    cmd = [
+        "yt-dlp",
+        "--no-check-certificates",
+        "--remote-components", "ejs:github",
+        "--skip-download",
+        "--write-auto-sub",
+        "--write-sub",
+        "--sub-lang", f"{SUBTITLE_LANG}*",
+        "--sub-format", "vtt",
+        "-o", output_template,
+        f"https://www.youtube.com/watch?v={video_id}",
+    ]
+
+    try:
+        result = subprocess.run(
+            cmd, capture_output=True, text=True, timeout=120
         )
+    except subprocess.TimeoutExpired:
+        print(f"  [TIMEOUT] Subtitle download timed out for {video_id}")
+        return None
 
-        # Filter only “youtube#video” (skip playlists, etc.)
-        video_ids.extend(
-            item["id"]["videoId"]
-            for item in resp["items"]
-            if item["id"]["kind"] == "youtube#video"
-        )
-
-        next_page = resp.get("nextPageToken")
-        if not next_page:  # reached last page
+    # Look for the downloaded VTT file (could be .en.vtt or .en-orig.vtt)
+    vtt_path = None
+    for suffix in [f".{SUBTITLE_LANG}.vtt", f".{SUBTITLE_LANG}-orig.vtt"]:
+        candidate = os.path.join(temp_dir, f"{video_id}{suffix}")
+        if os.path.exists(candidate):
+            vtt_path = candidate
             break
 
-    return video_ids
+    if not vtt_path:
+        # Check for any .vtt file matching this video
+        for f in os.listdir(temp_dir):
+            if f.startswith(video_id) and f.endswith(".vtt"):
+                vtt_path = os.path.join(temp_dir, f)
+                break
 
-
-def get_video_title(video_id: str) -> str:
-    """
-    Fetch the human-readable title for a single video.
-
-    Returns a fallback string if the API fails (rare).
-    """
-    try:
-        response = (
-            youtube.videos()
-            .list(part="snippet", id=video_id)
-            .execute()
-        )
-        return response["items"][0]["snippet"]["title"]
-    except Exception as err:
-        print(f"[WARN] Could not get title for {video_id}: {err}")
-        return f"Video ID: {video_id}"
-
-
-def download_transcript(video_id: str, languages: List[str] | None = None) -> Optional[str]:
-    """
-    Download the transcript for one YouTube video.
-
-    Parameters
-    ----------
-    video_id : str
-        Video ID to fetch.
-    languages : List[str] | None
-        Preferred language codes.  Defaults to English only.
-
-    Returns
-    -------
-    str | None
-        Transcript text if available, else ``None``.
-    """
-    if languages is None:
-        languages = ["en"]
-
-    try:
-        # This call works for both manual and auto-generated captions
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=languages)
-        return "\n".join(segment["text"] for segment in transcript)
-    except Exception as err:
-        print(f"[INFO] No transcript for {video_id}: {err}")
+    if not vtt_path:
         return None
+
+    with open(vtt_path, "r", encoding="utf-8") as f:
+        vtt_content = f.read()
+
+    # Clean up temp files
+    for f in os.listdir(temp_dir):
+        if f.startswith(video_id):
+            os.remove(os.path.join(temp_dir, f))
+
+    return clean_vtt(vtt_content)
+
+
+def sanitize_filename(title: str) -> str:
+    """Create a filesystem-safe filename from a video title."""
+    safe = re.sub(r'[<>:"/\\|?*]', '', title)
+    safe = safe.strip(". ")
+    return safe[:200] if safe else "untitled"
 
 
 def main() -> None:
-    """Orchestrate the download and file writing."""
-    if not API_KEY or not CHANNEL_ID:
-        raise ValueError("Please supply both API_KEY and CHANNEL_ID in the settings section.")
+    """Orchestrate the full channel transcript download."""
+    print(f"Fetching video list from: {CHANNEL_URL}")
+    print("This may take a moment for large channels...\n")
 
-    video_ids = get_all_video_ids(CHANNEL_ID)
-    print(f"Found {len(video_ids)} videos. Fetching transcripts...\n")
+    videos = get_all_videos(CHANNEL_URL)
+    total = len(videos)
+    print(f"Found {total} videos. Starting transcript downloads...\n")
 
-    with open("all_transcripts.txt", "w", encoding="utf-8") as outfile:
-        for vid in video_ids:
-            transcript_text = download_transcript(vid)
-            if transcript_text:
-                title = get_video_title(vid)
-                header = f"\n\n========== {title} ==========\n\n"
-                outfile.write(header)
-                outfile.write(transcript_text)
-                print(f"✅ Saved transcript for: {title}")
+    # Create output directories
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    temp_dir = os.path.join(OUTPUT_DIR, ".tmp")
+    os.makedirs(temp_dir, exist_ok=True)
+
+    # Track progress
+    success_count = 0
+    fail_count = 0
+    failed_videos = []
+
+    # Open combined output file
+    with open(COMBINED_FILE, "w", encoding="utf-8") as combined:
+        combined.write(f"# Alex Hormozi - Complete YouTube Channel Transcripts\n")
+        combined.write(f"# Total videos found: {total}\n")
+        combined.write(f"# Downloaded: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+        combined.write(f"# Source: {CHANNEL_URL}\n\n")
+
+        for idx, (video_id, title) in enumerate(videos, 1):
+            progress = f"[{idx}/{total}]"
+            print(f"{progress} Processing: {title}")
+
+            transcript = download_subtitle(video_id, temp_dir)
+
+            if transcript:
+                # Save individual file
+                safe_title = sanitize_filename(title)
+                individual_path = os.path.join(
+                    OUTPUT_DIR, f"{safe_title} [{video_id}].txt"
+                )
+                with open(individual_path, "w", encoding="utf-8") as f:
+                    f.write(f"Title: {title}\n")
+                    f.write(f"Video ID: {video_id}\n")
+                    f.write(f"URL: https://www.youtube.com/watch?v={video_id}\n")
+                    f.write(f"{'=' * 80}\n\n")
+                    f.write(transcript)
+
+                # Append to combined file
+                combined.write(f"\n\n{'=' * 80}\n")
+                combined.write(f"TITLE: {title}\n")
+                combined.write(f"VIDEO ID: {video_id}\n")
+                combined.write(f"URL: https://www.youtube.com/watch?v={video_id}\n")
+                combined.write(f"{'=' * 80}\n\n")
+                combined.write(transcript)
+
+                success_count += 1
+                print(f"  -> Saved transcript ({len(transcript):,} chars)")
             else:
-                print(f"❌ Skipped {vid} (no transcript)")
+                fail_count += 1
+                failed_videos.append((video_id, title))
+                print(f"  -> No transcript available")
 
-    print("\nFinished! Transcripts saved to all_transcripts.txt")
+            # Brief pause to avoid rate limiting
+            if idx % 10 == 0:
+                time.sleep(2)
+
+    # Clean up temp directory
+    try:
+        os.rmdir(temp_dir)
+    except OSError:
+        pass
+
+    # Write manifest of all videos
+    manifest_path = os.path.join(OUTPUT_DIR, "_manifest.json")
+    manifest = {
+        "channel_url": CHANNEL_URL,
+        "download_date": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "total_videos": total,
+        "transcripts_downloaded": success_count,
+        "transcripts_failed": fail_count,
+        "videos": [
+            {"id": vid, "title": title, "has_transcript": (vid, title) not in failed_videos}
+            for vid, title in videos
+        ],
+    }
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+
+    # Summary
+    print(f"\n{'=' * 60}")
+    print(f"DOWNLOAD COMPLETE")
+    print(f"{'=' * 60}")
+    print(f"Total videos:          {total}")
+    print(f"Transcripts saved:     {success_count}")
+    print(f"No transcript:         {fail_count}")
+    print(f"Individual files:      ./{OUTPUT_DIR}/")
+    print(f"Combined file:         ./{COMBINED_FILE}")
+    print(f"Manifest:              ./{manifest_path}")
+
+    if failed_videos:
+        print(f"\nVideos without transcripts:")
+        for vid, title in failed_videos:
+            print(f"  - {title} ({vid})")
 
 
 if __name__ == "__main__":
