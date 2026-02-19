@@ -1,19 +1,19 @@
 {
   "channel_url": "https://www.youtube.com/@alexbeckerbusiness/videos",
-  "download_date": "2026-02-19 04:04:57",
+  "download_date": "2026-02-19 04:11:18",
   "total_videos": 142,
-  "transcripts_downloaded": 79,
-  "transcripts_failed": 63,
+  "transcripts_downloaded": 78,
+  "transcripts_failed": 64,
   "videos": [
     {
       "id": "7DwDddzwoVY",
       "title": "I Vibe Coded A $100,000 A Day App (My Step by Step Process)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "8i0ZIHDI024",
       "title": "It's GROSS, But this SaaS pitch made me $232 Million",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "EsgQ0bQzvZ0",
@@ -28,7 +28,7 @@
     {
       "id": "un-lNiPjTQY",
       "title": "15 Years of Brutal SaaS Business Advice In 52 Minutes",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Mm05k0oNW7M",
@@ -43,7 +43,7 @@
     {
       "id": "DJNP8tAqbjo",
       "title": "It's CHEATING, but it's the fast way to 1 mil/Year",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "zOyhcOuvxUg",
@@ -58,22 +58,22 @@
     {
       "id": "297RsRWOfIQ",
       "title": "This is why becoming rich will ruin your life",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "wlsiPNRT3Ic",
       "title": "If I wanted to be rich fast, I'd build this EXACT business in 2025",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "zgSwYEQ0Fu8",
       "title": "Want to be rich? Accept these brutal truths for 26 minutes",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "y3-DRDqVeEw",
       "title": "This Will Make You Richer Than 99% of People In the U.S.",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "WbcuaqyAP38",
@@ -88,17 +88,17 @@
     {
       "id": "9fkH68UWSng",
       "title": "Want to be rich but your lazy? Sell these. (while its legal)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "0wZpdLe2VXc",
       "title": "They SUCK, but these 10 rules make millionaires",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "y4-lHe1YJl0",
       "title": "After making 200 mil, this is my best advice to get rich",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "3AO3tO83Wdw",
@@ -113,17 +113,17 @@
     {
       "id": "GI3nLBkvtas",
       "title": "How I'd Invest $2000 In My 20s To Be RICH At 30",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "GVJyGHEW1WM",
       "title": "Why Having A \"Personal Brand\" Will Ruin Your Life",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "QuxwyZq4oI0",
       "title": "FBI Persuasion Scientist Breaks Down Alex Hormozis 105 Mil/Day Pitch",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "YXykmSflTpY",
@@ -153,7 +153,7 @@
     {
       "id": "KotheNB6B5A",
       "title": "How to Make More Money Than 99% of People",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "veoqCpndof4",
@@ -178,7 +178,7 @@
     {
       "id": "VVPECdnzXSA",
       "title": "You'll HATE It, But It Will Make You Rich In A Year [Full Blueprint]",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "_u8rxHlcFWg",
@@ -198,12 +198,12 @@
     {
       "id": "gwWnpxSjbqA",
       "title": "It SUCKS... But It Makes $1M/Year EASY (Step-by-Step)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "7VzKIJbLOfk",
       "title": "I Made $200 Million Abusing This 1 Rule (Kinda Regret It)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "UCi5JRO7dDI",
@@ -218,12 +218,12 @@
     {
       "id": "FPSXDziI5C8",
       "title": "I Explain A Facebook Ad Strategy That Made Me 100 Mil",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "rk0Rwj_Yba4",
       "title": "This AI Facebook Ad Targeting Set Up Is Printing Money ($30k A DAY?!)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "sEFARrqZ9y8",
@@ -233,7 +233,7 @@
     {
       "id": "yyO4nwNwqqI",
       "title": "I Explain My $52k A Day AI Video Meta Ads (Exact Workflow)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "9mkDmdjMS9o",
@@ -248,7 +248,7 @@
     {
       "id": "mOA3UiVQL30",
       "title": "I'm Using This \"Dead\" Ad Source To Make Millions",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "9Fz9oErba4A",
@@ -258,7 +258,7 @@
     {
       "id": "3DLxZTa1dS8",
       "title": "I Made 24.5 Million Running Ads To This Ugly Mug",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "DkrQmA5-ZP4",
@@ -268,12 +268,12 @@
     {
       "id": "NjBqA5aHSdc",
       "title": "I'm Using This Image Ad To PRINT Money On Google ($1000+ A Hour)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "PL3IgtFYqRo",
       "title": "These GROSS Image Ads Make Me $5,400 A Hour",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "oIX1cPYm-qw",
@@ -283,7 +283,7 @@
     {
       "id": "OKLP1Fn2Mi0",
       "title": "This GROSS Ad Script Makes Me $10,400 Hour",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "QRa5NQzjKXo",
@@ -303,17 +303,17 @@
     {
       "id": "-1aMZQEiKk4",
       "title": "This Creepy Video Ad Made Me $16,224,000. Copy It.",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "86jundvBdRo",
       "title": "The #1 Lesson That'll Make You God Tier Rich",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "eCzmB_qHBn4",
       "title": "Brutally Simple Beginner Ads That ALWAYS Make Money",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "OmVcuh8r8fY",
@@ -328,7 +328,7 @@
     {
       "id": "Nj8GsJfYDgE",
       "title": "How I Scaled Facebook Ads To 76 million $$",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "iNob8jCdpX8",
@@ -338,12 +338,12 @@
     {
       "id": "iTwxc1_o3Ks",
       "title": "How The Top 1% Make Billions With \"Slow Sell\" Ads",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "eOikchS2wsU",
       "title": "It's Gross...but my ads make $52,000 a day selling this",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "ZnsJUJoXr1Q",
@@ -358,7 +358,7 @@
     {
       "id": "u7GqHyBA8O4",
       "title": "2021 BEST FB Ad RETARGETING Guide (Mega High ROI Placments)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "QkQYfunBMr8",
@@ -373,12 +373,12 @@
     {
       "id": "8JigXUfomxk",
       "title": "This 2 Page FB AD Funnel Made $20 MILLION! (Advanced 2021 FB Ad Funnel Guide)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "H-kQzBDu-lA",
       "title": "This Facebook Ad Made $50,000,000 (Full Breakdown)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "hsd_H9rO4Ds",
@@ -408,12 +408,12 @@
     {
       "id": "KcKuSvE5oNo",
       "title": "These Images BLOW UP Facebook Ad Conversions",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "WCicDquPAR8",
       "title": "PROOF! : Saying This Increases YT AD ROI 432%",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "U2-gK4xvTKQ",
@@ -423,7 +423,7 @@
     {
       "id": "XjJvuEEM7fA",
       "title": "HANDS DOWN!! THE BEST AD TRAFFIC SOURCE OF 2021 [I Can't Believe It]",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "bcYMwpL_gj8",
@@ -433,7 +433,7 @@
     {
       "id": "fNw3Px7wJZk",
       "title": "WHY 92% Of Facebook Ads Fail (Don't Do THIS)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "-IMVUxp_1Cc",
@@ -443,12 +443,12 @@
     {
       "id": "Khhi6q0pSII",
       "title": "This Facebook AD Hack Made Him 100 Million...",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "GZ7KZi2nJ8M",
       "title": "The Easy Way To Make $100k With Youtube Ads (Full Strategy)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "oVPC1Z1f63o",
@@ -458,12 +458,12 @@
     {
       "id": "wLNk2QoVmvE",
       "title": "EVIL BUT WORKS!! LETHAL FACEBOOK AD SCRIPT EXPLAINED",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "a8E_6uU2wQE",
       "title": "𝐇𝐔𝐆𝐄 𝐑𝐎𝐈!!! 𝗙𝗨𝗟𝗟 𝟭 𝗖𝗲𝗻𝘁 𝗙𝗕 𝗔𝗗 𝗖𝗹𝗶𝗰𝗸𝘀 𝗚𝘂𝗶𝗱𝗲",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "stOz9tCCRn8",
@@ -473,7 +473,7 @@
     {
       "id": "ON7qL3w1Ipw",
       "title": "HOLY...THESE TINY AD FUNNELS MAKE 30k DAILY",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "UPNxJeDrx18",
@@ -483,7 +483,7 @@
     {
       "id": "qLrjrg1ce1w",
       "title": "FAST Facebook Ad Scaling Guide ($100-$5000 A Day!)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QpR8XFgu95c",
@@ -508,7 +508,7 @@
     {
       "id": "5G9kq5_hlDQ",
       "title": "These 3 Offers DOMINATE Facebook ADs",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "4ySQQ-ovDCg",
@@ -518,7 +518,7 @@
     {
       "id": "M1c7znLE1sE",
       "title": "This HTML Swap DOUBLES Facebook Ad Profits",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "6Own8w3Fr4M",
@@ -528,7 +528,7 @@
     {
       "id": "JbpsdIegpeU",
       "title": "These 4 Ad Designs CRUSH Facebook Ads",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "S458QBRzmOs",
@@ -538,12 +538,12 @@
     {
       "id": "2-GilmsesOo",
       "title": "$419k FB Retargeting Return! (Ultimate Facebook Retargeting Guide)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "qXA2psT6bWw",
       "title": "I Spend $25k On The Keyword Money",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "WPbyf6p-n9Q",
@@ -553,22 +553,22 @@
     {
       "id": "LacyMERAHCc",
       "title": "3 Tiny Optimizations That Turbo Charged Sales",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "9NwtdM-5K-k",
       "title": "This Youtube Ad Script Is TOO Good",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "85CQNg5oQjg",
       "title": "How To Make $10k Posting Mind Melters",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Jd3JhNNCkU4",
       "title": "3 Signs Your Shopify Store Is Bleeding Out Sales",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "GcZYrpEEHc4",
@@ -578,12 +578,12 @@
     {
       "id": "pVwAuBSGIW4",
       "title": "How To 3x Shopify Sales With A Few Clicks",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "MLp3Fs2VmDM",
       "title": "How I Built 3 Multi Million $$ Companies With Email",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "wss2GpSVeq0",
@@ -613,12 +613,12 @@
     {
       "id": "4dt31BcM9a4",
       "title": "2017 02 17 14 11 30 Rankings In 24 Hours Webby",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "3XxlZned0ow",
       "title": "How To Increase Any JVzoo Launch Or Shopify Store By 10-30%",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "-iThV6Ho48M",
@@ -643,22 +643,22 @@
     {
       "id": "LatnQXgHReg",
       "title": "How To Get Email Subs To Spend $8,000 and Open Every Email You Send....",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Tz1awyqzhEk",
       "title": "NewVids",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "wdOIlo8nbjc",
       "title": "How I Generated A List of 100k+ Emails Off Facebook",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "kS0g9TnHH1o",
       "title": "The Email Funnel That Built A $4,000,000 Business",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "nDObRfL1bl0",
@@ -668,17 +668,17 @@
     {
       "id": "8VYrTCUXXdg",
       "title": "weby",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "hNLw9kJzbW8",
       "title": "Shopify+Market Hero",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "u-FACxLZyJ8",
       "title": "MarketHeroWebinar",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "CiZb_PwuJDI",
@@ -708,12 +708,12 @@
     {
       "id": "xTEraj5NKPE",
       "title": "tshirt1",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "AesQ0Yu04dk",
       "title": "welcome",
-      "has_transcript": true
+      "has_transcript": false
     }
   ]
 }
