@@ -1,9 +1,9 @@
 {
   "channel_url": "https://www.youtube.com/@SimonHoiberg/videos",
-  "download_date": "2026-02-19 04:37:42",
+  "download_date": "2026-02-19 04:54:13",
   "total_videos": 51,
-  "transcripts_downloaded": 26,
-  "transcripts_failed": 25,
+  "transcripts_downloaded": 34,
+  "transcripts_failed": 17,
   "videos": [
     {
       "id": "Ap2wvq7LVTc",
@@ -18,7 +18,7 @@
     {
       "id": "fnOQMT2EYbg",
       "title": "How to build your DREAM SaaS business in 2026",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "EdeWN3whbgw",
@@ -28,22 +28,22 @@
     {
       "id": "3XGIU17mZFo",
       "title": "How cloud providers overcharge you (and how to fix it)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "tWz4Eqh9USc",
       "title": "I'm leaving the cloud! (...and why you probably should too)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "QIA9Ry42Lbs",
       "title": "Get rich building niche AI SaaS (...not another ChatGPT wrapper)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "aRVidOgfIYo",
       "title": "This AI agent makes you a Top Voice on social media (AgentKit + FeedHive MCP)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "c5TAD2yb-cY",
@@ -53,12 +53,12 @@
     {
       "id": "IQqNRmoEa0s",
       "title": "This AI Coding Stack Writes 90% of My Code",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "L_tEwaEO4ZA",
       "title": "How To Survive The \"Fast Fashion\" Era of SaaS",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "0Axx_BWuxsU",
@@ -83,7 +83,7 @@
     {
       "id": "lz7itSuJTvg",
       "title": "These UI Kits will Make Your SaaS Look Premium",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "2P9gPux6UfI",
@@ -98,7 +98,7 @@
     {
       "id": "4RwMnSfqEOg",
       "title": "8 AI Agents & Tools I Use to Make $1.6M / Year",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Hm0DZtiKUI8",
@@ -108,7 +108,7 @@
     {
       "id": "Zq2yLyc4fi0",
       "title": "I Made +$160K Selling SaaS Lifetime Deals",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "1oDRa8DzVkw",
@@ -118,7 +118,7 @@
     {
       "id": "p7MXYzS6Fr8",
       "title": "Launching a SaaS with Almost No Money",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "IvwJU7AMQh4",
@@ -128,12 +128,12 @@
     {
       "id": "z5U843Ob8xw",
       "title": "How to Build a SaaS Factory - Ship 10x Faster",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "QwQyw5R9ds0",
       "title": "4 SaaS Trends to Blow up Your Business in 2024",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "PFslOvkPXTI",
@@ -153,7 +153,7 @@
     {
       "id": "7jY_4AJtuS0",
       "title": "This Switch Doubled Our SaaS Revenue (Crazy A/B Test Results)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "wx5PmLbM5wo",
@@ -163,7 +163,7 @@
     {
       "id": "I9BXhcjxEsw",
       "title": "Sneaky Way to Use Google Ads in Your SaaS (Copy This Strategy)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "1SCqveOv--c",
@@ -173,22 +173,22 @@
     {
       "id": "matM2KlG74Y",
       "title": "5 SaaS Ideas You Can Build as a Solo Founder",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "aSMxdBVTcLg",
       "title": "How I Use AI + No Code to Validate any SaaS Idea",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "JZ696sbfPHs",
       "title": "Start a SaaS Business Using These AI + No Code Tools",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "qPHQVZd112U",
       "title": "Build a Micro SaaS Using This No Code Tool (Only One Tool Needed)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "qg5GNh3mn2o",
@@ -198,12 +198,12 @@
     {
       "id": "xWrUNI7adpI",
       "title": "How to Use A.I. to Run Your Online Business (ChatGPT, FeedHive, GPT-3, Copilot)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Hdp30KBXK40",
       "title": "7 AI SaaS Ideas You Can Start In 2023 🚀 (ChatGPT, GPT-3, FeedHive, Stable Diffusion)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "qlibMfRlWf4",
@@ -218,7 +218,7 @@
     {
       "id": "06VUyvmHuoc",
       "title": "I'm Launching a New SaaS!!! 🥳 (..and I want you to join me!)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "uYRq60G5XTk",
@@ -228,7 +228,7 @@
     {
       "id": "nsm7sgSRD84",
       "title": "How To Reach $1,000 MRR in 30 Days (Most Startups Aren't Doing This)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QubKi6Hmzf8",
@@ -238,12 +238,12 @@
     {
       "id": "00i3JRAQ_w4",
       "title": "I Created a SaaS Only Using No Code Tools - Part 1",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "-E7zpZbG9cY",
       "title": "How To Find BRILLIANT SaaS Ideas",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "1Wq5itfNNnE",
@@ -253,7 +253,7 @@
     {
       "id": "SUjTIX0a1PM",
       "title": "This Is The PERFECT Tech Stack For a SaaS Product",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "OcYPCRT5OH4",

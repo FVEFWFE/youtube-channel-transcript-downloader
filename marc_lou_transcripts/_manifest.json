@@ -1,24 +1,24 @@
 {
   "channel_url": "https://www.youtube.com/@marc-lou/videos",
-  "download_date": "2026-02-19 04:38:28",
+  "download_date": "2026-02-19 04:52:30",
   "total_videos": 74,
-  "transcripts_downloaded": 35,
-  "transcripts_failed": 39,
+  "transcripts_downloaded": 42,
+  "transcripts_failed": 32,
   "videos": [
     {
       "id": "hXuu1jjYsjo",
       "title": "Day 474 growing my SaaS startup to $1M",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "wca-qwPCDcU",
       "title": "so... I built my own web analytics SaaS",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "JKFmLdoLm8M",
       "title": "I made $1M in 2025 (WRAPPED)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "fhCzzZHjr6o",
@@ -38,7 +38,7 @@
     {
       "id": "kim2qKeAFlI",
       "title": "Day 375 growing my SaaS startup to $1M",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Zk5GxV19K00",
@@ -53,7 +53,7 @@
     {
       "id": "SexBiCtI_Qg",
       "title": "POV you built 28 startups and made $2M",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "ETkhHZS-Sbk",
@@ -78,7 +78,7 @@
     {
       "id": "k4Zpe6u1rLI",
       "title": "How I Would Learn to Code in 2025 (if I had to start over)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "6SdpwZzUk_w",
@@ -88,7 +88,7 @@
     {
       "id": "fFzcL6Ivqz0",
       "title": "How I use AI to build startups 10X FASTER",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "D1BjJB-n9lg",
@@ -98,12 +98,12 @@
     {
       "id": "C2Bs_Zu103U",
       "title": "POV: you’re a millionaire developer automating 25 startups with AI",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QD50Pkf0Ov0",
       "title": "Learn to Code in 3 Hours, Not 3 Years (Free Course)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "-Jl9l3O9Hm8",
@@ -133,12 +133,12 @@
     {
       "id": "eqgUjOByexc",
       "title": "I failed 27 startups... and made $1M as a SOLO developer (my story)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "BHshHvKmJYQ",
       "title": "How I Do Marketing as a Solo Developer (VLOG)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "KJb_nfR6gJk",
@@ -163,22 +163,22 @@
     {
       "id": "apO6jhHNpWU",
       "title": "i just launched my 25th startup (SaaS)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "y3HV_KdGoZg",
       "title": "Why your side project makes $0",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "LRMTfhUM81I",
       "title": "I made $63,247 in September | Solopreneur Diary",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "agSU33udQCY",
       "title": "I made $68,140 in August | Solopreneur Diary",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "DTJatExdQMI",
@@ -188,7 +188,7 @@
     {
       "id": "cQeP7NveEEI",
       "title": "I made $66,700 in July | Solopreneur Diary",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "IXOk6o-Omps",
@@ -198,7 +198,7 @@
     {
       "id": "jhTlm62glNo",
       "title": "THIS mistake cost me $1600",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "k3VbMdmGmIo",
@@ -213,12 +213,12 @@
     {
       "id": "8uOuW-Jkn2w",
       "title": "he screwed my startup",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "OHfF3P_NsGQ",
       "title": "I launched my 24th startup (SaaS)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "ZeE0T1TxpfU",
@@ -253,7 +253,7 @@
     {
       "id": "hCMEGQfLIEM",
       "title": "I made these 23 websites (and earned $562,943)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "_P28Or4MOUI",
@@ -268,7 +268,7 @@
     {
       "id": "PkbW-ce7cfE",
       "title": "I launched a SaaS in 3 days with 3 shortcuts",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "b_ANHgTHNSI",
@@ -293,7 +293,7 @@
     {
       "id": "lf6y4-Ah0vs",
       "title": "Jim Carrey writes invoices himself",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "gQuS8N6fyJU",
@@ -303,7 +303,7 @@
     {
       "id": "gJIeexsmtH4",
       "title": "I sold my AI SaaS",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "qj6Hy1u05NU",
@@ -313,17 +313,17 @@
     {
       "id": "KZJHL4b-p54",
       "title": "Make ads great again",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "OAw0dC8JUDI",
       "title": "My 9 Sources of Income as a Solopreneur",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "tax7iwjPC44",
       "title": "Matthew McConaughey gets emotional... so I built a new startup",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "YsmIHkyxTeQ",
@@ -348,12 +348,12 @@
     {
       "id": "OX_iYBLcu1I",
       "title": "Only one of them pays the bills",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "4IcQkgqxiFA",
       "title": "Fake It Till You Make It",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "MNeHshdyIoE",
@@ -368,7 +368,7 @@
     {
       "id": "scg4b2scHPU",
       "title": "Joe Rogan tried stretching with me",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "OnGqQMgsu_I",

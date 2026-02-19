@@ -1,9 +1,9 @@
 {
   "channel_url": "https://www.youtube.com/@RobWalling/videos",
-  "download_date": "2026-02-19 04:48:52",
+  "download_date": "2026-02-19 05:04:56",
   "total_videos": 411,
-  "transcripts_downloaded": 217,
-  "transcripts_failed": 194,
+  "transcripts_downloaded": 238,
+  "transcripts_failed": 173,
   "videos": [
     {
       "id": "skmHKOjqWO8",
@@ -13,22 +13,22 @@
     {
       "id": "nuIKavtqWT4",
       "title": "My 3-Step Method to Start a Million-Dollar Business",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "6sgCo6fMSGY",
       "title": "Give Me 36 Minutes and I'll Teach You How to Find $1M SaaS Ideas",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "K448XtAsGJg",
       "title": "Don't Start a SaaS in 2026 Until You Watch This",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "rvAUupZ_Pdc",
       "title": "What's ACTUALLY Happening in SaaS Right Now",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "GNR61V6ihxE",
@@ -38,17 +38,17 @@
     {
       "id": "zSySYY8c32E",
       "title": "Coding in 2026 is STILL a Superpower (Even with AI)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Nuf1ThmVRcY",
       "title": "6 Signs Your SaaS MVP Is Not Good Enough (nobody teaches this)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Td-6EhAkLXc",
       "title": "You're Working on the WRONG Things - here's how to fix it",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "9w36HcZGzYU",
@@ -58,7 +58,7 @@
     {
       "id": "ABnIUv7G9IA",
       "title": "There’s ONLY 5 Ways to Use AI in SaaS (prove me wrong)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "3LDd-ZLNMGA",
@@ -68,7 +68,7 @@
     {
       "id": "VWaC7PI_E6M",
       "title": "The Silent Killer of Startups (And How to Prevent It)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "jAhqAzJdFhE",
@@ -83,22 +83,22 @@
     {
       "id": "T7Pku5I3vNM",
       "title": "5 BORING Decisions That Made Me a Multi-Millionaire",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "b56OA6yGT5A",
       "title": "NEVER Make These 6 Mistakes (Lessons from 20 Years in Business)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Sv1IO5mmTKY",
       "title": "Break Through the 7 SaaS Plateaus - Rob Walling at MicroConf US 2025",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "zHmR2iMXN9A",
       "title": "The BEST Sales Funnel For Your SaaS (new data changed my advice)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "KN5EASyCzPs",
@@ -118,12 +118,12 @@
     {
       "id": "1rXXRdB3TJI",
       "title": "7 Tempting Startup Ideas I’d NEVER Build (And Why)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Q15paKSGIS8",
       "title": "99% of Beginners Don’t Know the Basics of SaaS",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "2vF_1AqqOLs",
@@ -138,7 +138,7 @@
     {
       "id": "JGqvd10ZG8U",
       "title": "AI Agents vs SaaS - Who Wins the Future of Software?",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "uc85Kg70_Ng",
@@ -178,12 +178,12 @@
     {
       "id": "De3l1yexay4",
       "title": "9 Signs It’s Time to SELL Your Business",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "DbKD8UWvO6w",
       "title": "Startup Founders, Do THIS to Beat Imposter Syndrome",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "n_CEYs1TUiE",
@@ -198,22 +198,22 @@
     {
       "id": "whAWD9uJdxM",
       "title": "SaaS Enterprise Sales Made Easy (5 SIMPLE Steps)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "fJNtBKT3Bmg",
       "title": "Freemium as a Pricing Strategy is DISASTROUS (unless...)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "pp3ieT4z8EI",
       "title": "How to Launch a PROFITABLE SaaS",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "k8pHw09RM1o",
       "title": "6 Lessons From My MOST SUCCESSFUL Investments in B2B SaaS",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Ki3qBvIRo6A",
@@ -228,7 +228,7 @@
     {
       "id": "qfCwNQZZrWo",
       "title": "5 Small Changes To Improve Your SaaS Product FOREVER",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "ZYKy5bM_9nc",
@@ -243,7 +243,7 @@
     {
       "id": "_9ZhyJCKZcg",
       "title": "How To Plan Your MVP (Minimum Viable Product) in 5 Simple Steps",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Q9clA64pWhA",
@@ -293,17 +293,17 @@
     {
       "id": "cL6lXKmbyyw",
       "title": "He Built a No Code SaaS Over $1M / Year, Here’s How...",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "XKe9O-nDdUg",
       "title": "6 Amateur Mistakes That TANK SaaS Success 📉 Avoid These!",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "ZxYPGWqSA2I",
       "title": "How To Choose a Name for Your Business, Startup, Brand, Product",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "p0tCy5JS1rc",
@@ -328,12 +328,12 @@
     {
       "id": "rVd4ZEBz1ew",
       "title": "The 6 Biggest Cofounder Mistakes We’ve Ever Seen...",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "6vCnlFLoWyk",
       "title": "4 Big SaaS UX Mistakes Beginners ALWAYS Make 🚫",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "d2SSjYJ9qLQ",
@@ -348,12 +348,12 @@
     {
       "id": "_K65aAbbQaA",
       "title": "Here's Why Your SaaS Side Hustle Isn't Working As Expected...",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "5OHCR8Bxbf4",
       "title": "Every SaaS Founder MUST Know This About Platform Risk in SaaS...",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "767bPGQ_ris",
@@ -368,22 +368,22 @@
     {
       "id": "I8v5mzVgm4M",
       "title": "This ONE Thing Will Grow Your SaaS Faster Than Anything Else...",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "6QIGL9RH1S8",
       "title": "5 GENIUS SaaS Ideas I'd Build Myself If I Had Time...",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "1p95mVJxnRg",
       "title": "This Is the SMARTEST SaaS Marketing Strategy I’ve Ever Seen… 🤯",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "gL4rXrd2bh0",
       "title": "Welcome to MicroConf! We Help SaaS Founders Thrive & Scale",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "JzowD61ZSYE",
@@ -393,17 +393,17 @@
     {
       "id": "KYN2U7LzVwQ",
       "title": "7 SaaS UI Mistakes Non-Designers ALWAYS Make - Avoid These 🚫",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "ZEdrzpDhQD8",
       "title": "The #1 Problem with Running a SaaS Business…",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QAE0s_fs2Og",
       "title": "Patrick Campbell Bootstrapped ProfitWell to a $200M Exit, Here's How...",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "cuGAUGAmgoA",
@@ -423,7 +423,7 @@
     {
       "id": "bN3fUog8rF4",
       "title": "Bootstrapped vs Funding: Which Is Better for Your Startup? 🤔",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "2U0OJ-NAyu4",
@@ -433,7 +433,7 @@
     {
       "id": "N08RuxH1S3U",
       "title": "We Accidentally DELETED All Our Customers Credit Cards 😱",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "hBno1JF_GfI",
@@ -448,12 +448,12 @@
     {
       "id": "NZxuc4BIPGs",
       "title": "I Discovered the Ultimate Cheat Code for SaaS... 😱",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "W37zparAsq0",
       "title": "Should You Beta Test Your SaaS or Go Straight to Market?",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "XVkgaV0lgwI",
@@ -463,7 +463,7 @@
     {
       "id": "n-XsTJv5kXs",
       "title": "7 Things SaaS Founders MUST Prepare for in the Age of AI",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "dJslcNaLxOA",
@@ -473,7 +473,7 @@
     {
       "id": "G8gEos8F9R0",
       "title": "#1 Mistake No-Code SaaS Founders Make - Don't Build Without THIS",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "XR6oQw7JEUw",
@@ -493,7 +493,7 @@
     {
       "id": "-yZOeG5bqvI",
       "title": "12 Books EVERY SaaS Founder Should Read This Year...",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "6TTzIgU09gE",
@@ -503,12 +503,12 @@
     {
       "id": "pGKSlPJl4Dg",
       "title": "Solve Your Customer Acquisition Problem",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "r8G6Rwk10IM",
       "title": "Avoid These BIG Risks When Building SaaS (Wish I Knew This Sooner)",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "kf1GzhiI9yQ",
@@ -523,7 +523,7 @@
     {
       "id": "zAGw6Ql7bSs",
       "title": "8 SaaS Myths Founders Should NEVER Fall For 🙅",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "GvQC5BHBkoM",
@@ -533,7 +533,7 @@
     {
       "id": "qfqkEZUumcc",
       "title": "SOC 2 Compliance: Everything Startup Founders Need to Know ✅",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "JleTJKIGHGg",
@@ -543,7 +543,7 @@
     {
       "id": "FjVOIq581Ww",
       "title": "2 New AI Tools You Probably Haven't Heard of Yet 🤖🤖",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "oDiR3WqTj0U",
@@ -573,7 +573,7 @@
     {
       "id": "zQkCjs0AVdQ",
       "title": "Every Founder MUST Know These SaaS Metrics to Grow",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "TTgwSqXcjUw",
@@ -583,12 +583,12 @@
     {
       "id": "MBPfFTh71SM",
       "title": "6 Micro SaaS Ideas You Can Steal",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "XE4vhJ7nO6g",
       "title": "31 Quick Wins for Growing a Million Dollar Startup",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "OOw21L6HqCg",
@@ -608,22 +608,22 @@
     {
       "id": "0jXgSy7JyvU",
       "title": "The Psychology of Exiting Your Company with Dr. Sherry Walling",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "eRkFFG6Ok6A",
       "title": "Turn Your SaaS Side Hustle into a Full-Time Gig in 2023",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "oLfATKP8IsM",
       "title": "SaaS Ideas To Build Right Now That Will Make You $10k+ MRR",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "J3nmnDRf8vo",
       "title": "Baking Marketing into Your Product Roadmap with Patty Radford Henderson",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "YohId9WzWRE",
@@ -638,7 +638,7 @@
     {
       "id": "XLc4LicdD8A",
       "title": "Level Up Your Company with Community with Anna Maste",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "iy4-0fHJHLg",
@@ -678,7 +678,7 @@
     {
       "id": "9meBk2i2wmo",
       "title": "Break Through ANY SaaS Revenue Plateau In 4 Simple Steps",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "xtr92VAqop8",
@@ -698,7 +698,7 @@
     {
       "id": "31U9X_XD63c",
       "title": "Validate Your SaaS Idea FAST (Step-by-Step SaaS Validation Process)💡✅",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "CW5N1KjwJlc",
@@ -713,7 +713,7 @@
     {
       "id": "vonsIB-Em1M",
       "title": "SaaS Marketing Strategies Your Competitors Use To Crush You",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "cqTj5uShIpY",
@@ -728,17 +728,17 @@
     {
       "id": "gh-gyedddQc",
       "title": "8 AWESOME Developer Tools You're Not Using Yet",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "lypHMpAoOsA",
       "title": "5 Secrets to Hiring Top Tier Talent for Your Startup 📈",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "D14xBYgzJIg",
       "title": "Hitting Reset on MeetEdgar with Laura Roeder",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Ud7LgKK3cK8",
@@ -753,17 +753,17 @@
     {
       "id": "wjYPak5EUik",
       "title": "The SaaS Pricing Fundamentals I Used To Become a Millionaire",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "P31zfASNNLY",
       "title": "What Is Churn & How To Reduce It In Your Startup",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "qM8HJk6JjT8",
       "title": "The Best Place to Meet Bootstrapped SaaS Founders in Europe",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "RPYAl8dGqeI",
@@ -788,7 +788,7 @@
     {
       "id": "wLoHNv9qMKw",
       "title": "Starting a SaaS Business? Here's Your Winning Go-to-Market Plan 🚀📈",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "XeRVY_-jRyI",
@@ -808,7 +808,7 @@
     {
       "id": "hzk8t8_stA8",
       "title": "💡 SaaS Ideas to Build Right Now, Before Someone Else Does ⚠️",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "PS1oKPZdJdE",
@@ -818,7 +818,7 @@
     {
       "id": "lC6Gpn0ugFI",
       "title": "SaaS Pricing Models Explained in 5 Minutes",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "8Jjb7fPV6PQ",
@@ -828,7 +828,7 @@
     {
       "id": "QviDwsMLXb0",
       "title": "How To Get Your First 100 Customers for Your SaaS Product",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "g8k8-o7NXVw",
@@ -848,27 +848,27 @@
     {
       "id": "iXn6KaD5TEU",
       "title": "Quickly Build Feature Requests Using No Code",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "4hDpSj6Ocmo",
       "title": "How I Made $30k a Month With SaaS (Software as a Service)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "cpkkKUzt3CM",
       "title": "Automating Your Customer Success Touch Points with No-Code",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Yc-nTOiFBaM",
       "title": "Automating Your Cold Outreach Sales Process with No Code",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "9URsjMa9cLE",
       "title": "Top 5 Activities of a Great SaaS Customer Success Manager",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "huyDp-zWpxg",
@@ -883,7 +883,7 @@
     {
       "id": "PlWhi_slX-k",
       "title": "SaaS Metrics - The BEST Guide to Software as a Service KPIs",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "qLSZ1OIYMiI",
@@ -918,17 +918,17 @@
     {
       "id": "f_9GwLbncsc",
       "title": "Fill Your Lobby with Partners That Can Refer Your SaaS with Leonardo Barrientos",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "x5JYwtkcqoM",
       "title": "What Is SaaS? Software As A Service Explained (In 5 Minutes)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Aaz4tstt9d0",
       "title": "Welcome to the MicroConf Channel!",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "oDlniFQIPno",
@@ -943,7 +943,7 @@
     {
       "id": "ovqPH8ZDFBY",
       "title": "Nobody Cares That Your Competitors Have More Money Than Your Bootstrapped Startup | Jordan Gal",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "1UmWaPl4u0w",
@@ -953,12 +953,12 @@
     {
       "id": "fWSkowdGT0w",
       "title": "Starting an E-Commerce Business as a Solo Founder With Jordan Gal | Startups for the Rest of Us",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "xr28rq48vyQ",
       "title": "Announcing TinySeed’s 2021 Accelerator Batch",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "vk1KFHUn0P4",
@@ -988,7 +988,7 @@
     {
       "id": "Y4xsNMomL4k",
       "title": "Quick Fix #1: You Can Talk To Your Customers! with Rand Fishkin - MicroConf Remote",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "QIL70urOxnw",
@@ -1003,7 +1003,7 @@
     {
       "id": "HsrqrwHZZEA",
       "title": "Between Two Plants We Stole Off of Someones Patio: Andy Martin - MicroConf Remote",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "C9UF4Wvv1Ww",
@@ -1018,22 +1018,22 @@
     {
       "id": "q1WNvRoSays",
       "title": "MicroConf Remote 2020",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "sUO1HvNJLWs",
       "title": "MicroConf Remote: Leveling Up SaaS Marketing Strategies",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "fJPiUEyF82w",
       "title": "The SaaS Podcast Awards Announcement",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "KKSZrj6ulRI",
       "title": "2021 State of Independent SaaS Survey Announcement",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "BKfaZZay-Fo",
@@ -1053,7 +1053,7 @@
     {
       "id": "YQg0a8lJHqc",
       "title": "SaaS Mag and How Startups Can Leverage Traditional Media with Thomas Smale – MicroConf On Air",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "J-xw97M93QQ",
@@ -1063,12 +1063,12 @@
     {
       "id": "FZ7ybZT8jH0",
       "title": "Announcing MicroConf Masterminds",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "GNROvmAu050",
       "title": "Prescriptions and Descriptions: Blind Spots of the Developer Entrepreneur – Ben Orenstein",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "KTls6r4F6HY",
@@ -1078,7 +1078,7 @@
     {
       "id": "ArE0e1IJMmI",
       "title": "How My Weekly Podcast Runs Itself – Brian Casel – MicroConf Starter 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "zK_YWQPg37I",
@@ -1093,22 +1093,22 @@
     {
       "id": "eI8gBFqfCYo",
       "title": "How to Get Useful User Feedback – Michele Hansen – MicroConf Growth 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "dK74TamkaZ4",
       "title": "Basic Integration Strategies for Your SaaS Business",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "imOK2-4fMZI",
       "title": "How a Personal Finance Blogger Became a Publishing Tycoon using Automated Content",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "1hU0weGo_6U",
       "title": "What to Do When You Have No Ideas – William Gant – MicroConf Starter 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "54QiSeu_3kY",
@@ -1118,7 +1118,7 @@
     {
       "id": "ZW9YBrw4urE",
       "title": "How I Raised the Price of My SaaS App by 60% – Dodd Caldwell – MicroConf Growth 2017",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "3lJdhhYI6hg",
@@ -1128,7 +1128,7 @@
     {
       "id": "JcbIRhS8wHc",
       "title": "MicroConf Recap 2018 – Christian Genco – MicroConf Starter 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "krm2FqrZk78",
@@ -1168,27 +1168,27 @@
     {
       "id": "fdwoxrOTVzA",
       "title": "How I Doubled My Revenue By Making and Automating a Plan – Charles Max Wood – MicroConf Growth 2019",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "ez_PyGHwR8U",
       "title": "How You Can Get Your Landing Page to 180,000 Visitors a Year in Under 12 Months – Josh Doody",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "CYbdNrOxig0",
       "title": "When Is It Time to Pay for Help? – Sophia Dagnon – MicroConf Growth 2019",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "x1hnx6KozVk",
       "title": "The 80/20 of SEO For Software & Service Companies — Travis Jamison — MicroConf Growth 2019",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "qhbC4nima7E",
       "title": "Never Too Late for a Startup – Brett Palmer – MicroConf Growth 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "JXGGEtT8KyY",
@@ -1198,7 +1198,7 @@
     {
       "id": "lD5EIUE6Gnk",
       "title": "When & How to Acquire & Invest Capital into Your SaaS Business – Brian Parks – MicroConf Growth 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "hI9Msr4ZVAo",
@@ -1208,22 +1208,22 @@
     {
       "id": "SdQdAdutx6c",
       "title": "Why There Is No Downside In Going For It: A Practical Guide – James Tayler – MicroConf Starter 2018",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "MCOo9HPpqck",
       "title": "Lessons Learned from a Year of Product Demos at Drip – Anna Jacobsen – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "5lS5uGu2zrg",
       "title": "Creative Twitter Marketing Automation in 15 Minutes Per Week – Ryan Battles",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "ToERsBjm2Q0",
       "title": "Lessons From Manually Onboarding Our First 50 Customers – Ben Orenstein – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "-Marj9F-xvw",
@@ -1233,12 +1233,12 @@
     {
       "id": "tulagrWJXqg",
       "title": "The Case Against Growth – Dave Kiss – MicroConf Growth 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "9BJMfF0MjwQ",
       "title": "The Path to Parallel Entrepreneurship – Ryan Buckley – MicroConf Growth 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "glvuje_8i4k",
@@ -1248,22 +1248,22 @@
     {
       "id": "RNJMSN9INGc",
       "title": "How to Acquire Customers for Your SaaS With an Efficient Outbound Sales Process — Jordan Gal",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "oXACKWi6QYU",
       "title": "Bootstrappers: How To Get Customers Efficiently With Podcast Tours – Kai Davis – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "SQNJxCtO_kE",
       "title": "Lessons Learned Building a WordPress Plugin Business to $10k/Month – Phil Derksen",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "X_1nKcSvdog",
       "title": "How To Systematically Fight SaaS Churn and Win – Robert Graham – MicroConf 2015",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "OoZ0-IiYQGI",
@@ -1273,7 +1273,7 @@
     {
       "id": "aLy_FlLIOtQ",
       "title": "Micropreneur Hiring: Get the Right Team So You Can Relax a Little – Matt Molter",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "_eE6rXqZhSw",
@@ -1293,7 +1293,7 @@
     {
       "id": "q5O3U5a3BO8",
       "title": "How to Create an Explosive Email Course",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "kF1YGFp6eb8",
@@ -1318,7 +1318,7 @@
     {
       "id": "bG5RViGyW4s",
       "title": "How We Generate 1,000+ Signups a Week for Our SaaS Business",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "TPxlpEzo0tw",
@@ -1328,7 +1328,7 @@
     {
       "id": "J_8Y67mARpo",
       "title": "How to Conduct a Great User Interview – Chris Achard – MicroConf Starter 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "DqdHVqTgD_U",
@@ -1338,12 +1338,12 @@
     {
       "id": "zMIsGeooCiI",
       "title": "SEO for Early Stage SaaS: Rankings, Organic Traffic and Conversion",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "2q6FFRcySO4",
       "title": "Getting Your First 989 Customers for Your SaaS",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "EI2Qo-2utyc",
@@ -1353,7 +1353,7 @@
     {
       "id": "C7oji3yCd0Y",
       "title": "The Inside Track on Thousands of Successful Product Launches",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "i_6FjXymnmA",
@@ -1363,7 +1363,7 @@
     {
       "id": "Ol_th0Iiew4",
       "title": "Unlock the Secrets to Selling to Developers",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QNCT6InA2ns",
@@ -1373,7 +1373,7 @@
     {
       "id": "Ld5Ej_EV0Y8",
       "title": "Staying Emotionally & Relationally Healthy While Launching Your Startup – Dr. Sherry Walling",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "q0Lpo46EF_s",
@@ -1383,7 +1383,7 @@
     {
       "id": "_ENpaLmVrSg",
       "title": "How a Non-Technical Founder Built a 6 Figure SaaS App Using Only Free Sources – Brecht Palombo",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "ZSy7HeTmRxg",
@@ -1398,27 +1398,27 @@
     {
       "id": "JvI34r_xUDs",
       "title": "How talking to customer can lead to full professional freedom...",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "JWsHQhDOIkQ",
       "title": "From Idea to Profit: Real-World Strategies for Launching Software Products",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "IzGw8NJu6Do",
       "title": "Tax Planning for SaaS – Cameron Keng, CPA, JD, EA – MicroConf 2013",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "AkLPrktAqd8",
       "title": "How I Built My Business to $5M in Revenue in 3 Years",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "9jCmI9WXIMk",
       "title": "Sales Calls Don't Need to be Painful",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "27xyuVK2tgc",
@@ -1428,12 +1428,12 @@
     {
       "id": "rmyV8emz2ZM",
       "title": "UX Expert Shares his the best tips for converting users into customers",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "hCRMzMnAb40",
       "title": "I Went From Zero to $5,000/Month with SaaS – Nathan Barry, ConvertKit",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "d8aoSHXFh98",
@@ -1443,12 +1443,12 @@
     {
       "id": "cV-QG4W2yxs",
       "title": "How one bootstrapped founder got 4.5 million app store downloads",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "5nMM3efuL_8",
       "title": "Building Your Own Community of Customers – Brennan Dunn – MicroConf 2013",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "4i-qvU9Wvzg",
@@ -1458,32 +1458,32 @@
     {
       "id": "4VZu9Geu7qE",
       "title": "How I Built a 6 Figure WordPress Plugin Business While Working a Day Job",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "TheiytjsZoY",
       "title": "Optimizing Your Way to a Dream Exit",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "SShoE2RHrlY",
       "title": "How I Bootstrapped and Sold My Software Company By Maxing Out My Credit Cards – Bill Bither",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "vcl0NrvoW-g",
       "title": "Lessons Learned Growing Keynotopia from Zero to 50,000 Customers – Amir Khella – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "pDYIaPUgcMY",
       "title": "From Funded to Self Funded: The Story of WeddingLovely – Tracy Osborn – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "gTK96WakJZA",
       "title": "The Developer CEO – Peter Coppinger – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Yffqf4ehsfE",
@@ -1493,12 +1493,12 @@
     {
       "id": "KQSK9W9rh3s",
       "title": "Question + Answer: Patrick Collison, Co-Founder, Stripe – MicroConf 2016",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "GZM4BSpgufk",
       "title": "Building & Scaling Products: Lessons Learned from Four Years and 8,000 Customers – Des Traynor",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Cwv-NbWYanc",
@@ -1508,17 +1508,17 @@
     {
       "id": "M-CALnzguN4",
       "title": "Question + Answer: Hiten Shah and Steli Efti of The Startup Chat",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "LGC9QbThK-8",
       "title": "An Unconventional Business: 10,000 Users, One-time Pricing, & a Two-Person Team – Claire Lew",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "B2VTHJFuysc",
       "title": "Idea to Validation to Launch with Ben Orenstein – MicroConf On Air",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "vF7kGeJ8qaU",
@@ -1528,7 +1528,7 @@
     {
       "id": "7X5Il5TO6TY",
       "title": "The Exact Formula We’ve Used to Generate $5M in Revenue in the Last 3 Years – Ezra Firestone",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "5CvRgaBCF2w",
@@ -1548,7 +1548,7 @@
     {
       "id": "t4u3vYt6Rwo",
       "title": "Growing Your Userbase with Better Onboarding – Samuel Hulick (UserOnboard) – MicroConf 2015",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "IuRk77JkQAE",
@@ -1568,12 +1568,12 @@
     {
       "id": "eSqUifbHkBQ",
       "title": "From Idea to 7 Figures in Two Years: The Story of Woothemes – Adii Pienaar – MicroConf 2012",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "kUKkAbzq9zo",
       "title": "Six Tricks That Helped Me Triple My SaaS' Growth Rate – Brennan Dunn – MicroConf 2014",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Q1o3q0kRFpE",
@@ -1583,7 +1583,7 @@
     {
       "id": "ou9oSroFmkc",
       "title": "Playing the Long Game: Making Entrepreneurship a Sustainable Life – Dr. Sherry Walling",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "jw8N7YrBM4o",
@@ -1593,7 +1593,7 @@
     {
       "id": "Xj_8_EdZZD8",
       "title": "3 Habits for Building & Growing a Product Empire – Nathan Barry – MicroConf 2014",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "RKEhFR1G-HE",
@@ -1603,7 +1603,7 @@
     {
       "id": "7iFHgbd6Jpk",
       "title": "Ten Business Questions Every Entrepreneur Needs to Ask Their Analytics – Annie Cushing",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "5d8c30Uy4cQ",
@@ -1618,12 +1618,12 @@
     {
       "id": "iN5MTyqvjDY",
       "title": "Lean Analytics: How to Focus on What Matters – Ben Yoskovitz – MicroConf 2013",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Hytwh-vFjpY",
       "title": "Copywriting that Converts: How to Sell Without Selling Your Soul – Joanna Wiebe – MicroConf 2013",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "p5Yoyh90nTM",
@@ -1663,7 +1663,7 @@
     {
       "id": "pu5D0xHGn0Q",
       "title": "The Necessary Ingredients for Being Successful, and Making Them Happen in Your Biz – Amy Hoy",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "hZkTeiJEm74",
@@ -1673,7 +1673,7 @@
     {
       "id": "Wye-kI2xcbc",
       "title": "Losers Have Goals, Winners Have Systems – Mike Taber – MicroConf 2012",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "0bQKdFfv5Vw",
@@ -1693,7 +1693,7 @@
     {
       "id": "vSa-aSgZRFE",
       "title": "Idea Validation and Customer Development – Mike Taber – MicroConf Starter 2017",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "rH50aXvwmpQ",
@@ -1703,12 +1703,12 @@
     {
       "id": "XcAoLSro2gQ",
       "title": "The Perfect Content Marketing Strategy – Russ Henneberry – MicroConf Growth 2017",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "XMyrKqo3MyI",
       "title": "Developing the Psychological Immunity to Stay Alive While You’re Starting Up – Dr. Sherry Walling",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QeDtYbP0AvU",
@@ -1728,7 +1728,7 @@
     {
       "id": "20hN2YGRfJo",
       "title": "How to Stop Giving Demos & Build a Sales Factory Instead – James Kennedy – MicroConf Growth 2017",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "1P_kd1YYyXA",
@@ -1743,7 +1743,7 @@
     {
       "id": "59dQTu_cli8",
       "title": "MicroConf On Air Day 5 | Video Discussion: Staying on Top of Your SaaS Metrics with Craig Hewitt",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "y3g5EMmt-xM",
@@ -1758,7 +1758,7 @@
     {
       "id": "TnWo6ex1C4E",
       "title": "An Unconventional Way to Validate Your Product Idea – Justin Jackson – MicroConf Starter 2018",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "RUOzxn36N3Q",
@@ -1768,12 +1768,12 @@
     {
       "id": "MHZU4fC7LnA",
       "title": "Navigating the Startup Landscapes – Courtland Allen – MicroConf Starter 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "FZTjkFCLv9s",
       "title": "Putting the (Onboarding) Cart Before the (Product) Horse – Alli Blum – MicroConf Starter 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "BgJT1Gt4OoI",
@@ -1783,7 +1783,7 @@
     {
       "id": "Aq1n9fFIDCo",
       "title": "It Won't Be a Straight Line: A Founder's Journey Starting, Growing & Selling a SaaS – Garrett Dimon",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "i0UNKsFmT0g",
@@ -1793,12 +1793,12 @@
     {
       "id": "bs6ppIBzuRs",
       "title": "Improv-Inspired Copywriting Tips for Founders: How to Be Funny (Even If You're Not) – Lianna Patch",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "MyGYfxpe2FQ",
       "title": "How to Use Jobs to Be Done to Perfect Your Positioning – Claire Suellentrop – MicroConf Growth 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "Ga0jxOXFItE",
@@ -1813,7 +1813,7 @@
     {
       "id": "3H21M8nPSt4",
       "title": "SEO Tasks That Produce Results – Dave Collins – MicroConf Growth 2018",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "2iMHfD9bZZo",
@@ -1828,7 +1828,7 @@
     {
       "id": "DgIEiGfmSyM",
       "title": "Using Mental Models & Principles for Better Decision Making – Andy Ayim – MicroConf Europe 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "uePzh-SOHXQ",
@@ -1838,22 +1838,22 @@
     {
       "id": "POzlcrTpcu0",
       "title": "Victories & Tragedies: The 3 Year Journey Building Balsamiq Cloud – Peldi Guilizzoni",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "NpJCDpZ90Uk",
       "title": "Growing Tito to €1Mil in Revenue in 7 Years: What We Did & Didn't Do – Paul Campbell",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "MLn1K--8zPU",
       "title": "RightMessage Year 1:  From $75k Launch to Virtually Bankrupt to Product Market Fit – Shai Schechter",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "JVL6ttKwUWY",
       "title": "Ask Me Anything: Bluetick – Mike Taber – MicroConf Europe 2019",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "G_1oN-Xlqz0",
@@ -1863,7 +1863,7 @@
     {
       "id": "Dr5RZqKlu0k",
       "title": "Sales Funnel Optimization for Bootstrapped Founders – Steli Efti – MicroConf Europe 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "TlDGw6RglNA",
@@ -1873,7 +1873,7 @@
     {
       "id": "tmwIpNsMCJ0",
       "title": "I Went From 0 to 14,000 Customers with SaaS (ALL Bootstrapped!)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "t_uSYaInXxk",
@@ -1883,7 +1883,7 @@
     {
       "id": "syTGYFlVHm4",
       "title": "How to Acquire Your First 100 Customers – Asia Matos – MicroConf Starter 2019",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "D_f0me8lk5M",
@@ -1918,7 +1918,7 @@
     {
       "id": "zE4MO4wozVk",
       "title": "Reflecting on My Failure to Make Gumroad a Billion Dollar Company – Sahil Lavingia",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "_jUtyeZVK6s",
@@ -1928,17 +1928,17 @@
     {
       "id": "Y2D7qAlApBc",
       "title": "How an Offer to Sell Wistia Inspired Us to Take On $17M in Debt – Chris Savage",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "QtLFwjdQJ94",
       "title": "80/20 Marketing: What’s Crushing it Right Now – Taylor Hendricksen – MicroConf Growth 2019",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "GEE7Xr_a0ZU",
       "title": "Money Words: Seven of the Words & Phrases We Use Most Often in High-Converting Copy – Joanna Wiebe",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "Ftpzj0LimCs",
@@ -1953,17 +1953,17 @@
     {
       "id": "2MJJs3kxvAY",
       "title": "Question & Answer with Jason Fried, Co-Founder, Basecamp – MicroConf Growth 2019",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "pVPsDvi2Kq4",
       "title": "MicroConf On Air Day 1: 11 Years to Overnight Success | From Beach Towels to a Successful Exit",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "XDKhrKEEy_U",
       "title": "MicroConf On Air: Your Daily Distraction",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "YEf7Toe4Jcg",
@@ -1973,7 +1973,7 @@
     {
       "id": "2Vv5IzcPYnk",
       "title": "How To 10x Your SaaS Revenue in 15 months",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "GLay7kksLtc",
@@ -1983,7 +1983,7 @@
     {
       "id": "7esNsHnqAvc",
       "title": "I Grew This SaaS by 13% Every Month for 13 Months (Self-Funded SaaS)",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "J7PewSIqwlk",
@@ -1993,7 +1993,7 @@
     {
       "id": "hxkpTJvRSuA",
       "title": "This Took 11 Years to Be An \"Overnight Success\" - SaaS Exit Strategy",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "2244yg-Ju2E",
@@ -2018,7 +2018,7 @@
     {
       "id": "acVvumkWVLU",
       "title": "Building Things to Help Sell The Things You Build – Patrick McKenzie (Patio11) – MicroConf 2013",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "PtmUJye7t4c",
@@ -2028,12 +2028,12 @@
     {
       "id": "N6V-cytrvvQ",
       "title": "How to Engineer Marketing Success – Patrick McKenzie (Patio11) – MicroConf 2012",
-      "has_transcript": true
+      "has_transcript": false
     },
     {
       "id": "_h8IhbR2Iqk",
       "title": "Paint By Numbers: From Productized Service to SaaS – Patrick McKenzie – MicroConf Starter 2017",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "-Tg48MVnBeQ",
@@ -2048,12 +2048,12 @@
     {
       "id": "otbnC2zE2rw",
       "title": "Designing the Ideal Bootstrapped Business with Jason Cohen",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "h4t1uf1w1s8",
       "title": "Staying Emotionally & Relationally Healthy While Launching Your Startup – Dr. Sherry Walling",
-      "has_transcript": false
+      "has_transcript": true
     },
     {
       "id": "IDoK40b7JRY",
