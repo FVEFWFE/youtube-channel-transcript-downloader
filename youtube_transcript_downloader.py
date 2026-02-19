@@ -12,10 +12,12 @@ pip install yt-dlp
 
 Usage
 -----
-1. Set CHANNEL_URL below to the target channel's video tab URL.
-2. Run:  python youtube_transcript_downloader.py
-   - Individual transcripts go into ./transcripts/<video_id>.txt
-   - A combined file is written to ./all_transcripts.txt
+python youtube_transcript_downloader.py <channel_url> [--output-dir DIR] [--combined-file FILE] [--channel-name NAME]
+
+Examples
+--------
+python youtube_transcript_downloader.py "https://www.youtube.com/@AlexHormozi/videos"
+python youtube_transcript_downloader.py "https://www.youtube.com/@alexbeckerbusiness/videos" --output-dir transcripts_becker --channel-name "Alex Becker"
 
 Notes
 -----
@@ -27,6 +29,7 @@ Notes
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
@@ -36,14 +39,7 @@ import time
 from pathlib import Path
 from typing import List, Optional, Tuple
 
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
-CHANNEL_URL: str = "https://www.youtube.com/@AlexHormozi/videos"
-OUTPUT_DIR: str = "transcripts"
-COMBINED_FILE: str = "all_transcripts.txt"
 SUBTITLE_LANG: str = "en"
-# ---------------------------------------------------------------------------
 
 
 def get_all_videos(channel_url: str) -> List[Tuple[str, str]]:
@@ -189,16 +185,42 @@ def sanitize_filename(title: str) -> str:
 
 def main() -> None:
     """Orchestrate the full channel transcript download."""
-    print(f"Fetching video list from: {CHANNEL_URL}")
+    parser = argparse.ArgumentParser(
+        description="Download all transcripts from a YouTube channel."
+    )
+    parser.add_argument(
+        "channel_url",
+        help="YouTube channel videos URL (e.g. https://www.youtube.com/@AlexHormozi/videos)",
+    )
+    parser.add_argument(
+        "--output-dir", default="transcripts",
+        help="Directory for individual transcript files (default: transcripts)",
+    )
+    parser.add_argument(
+        "--combined-file", default="all_transcripts.txt",
+        help="Path for the combined transcript file (default: all_transcripts.txt)",
+    )
+    parser.add_argument(
+        "--channel-name", default=None,
+        help="Human-readable channel name for file headers (auto-detected if omitted)",
+    )
+    args = parser.parse_args()
+
+    channel_url = args.channel_url
+    output_dir = args.output_dir
+    combined_file = args.combined_file
+    channel_name = args.channel_name or channel_url.split("@")[-1].split("/")[0]
+
+    print(f"Fetching video list from: {channel_url}")
     print("This may take a moment for large channels...\n")
 
-    videos = get_all_videos(CHANNEL_URL)
+    videos = get_all_videos(channel_url)
     total = len(videos)
     print(f"Found {total} videos. Starting transcript downloads...\n")
 
     # Create output directories
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    temp_dir = os.path.join(OUTPUT_DIR, ".tmp")
+    os.makedirs(output_dir, exist_ok=True)
+    temp_dir = os.path.join(output_dir, ".tmp")
     os.makedirs(temp_dir, exist_ok=True)
 
     # Track progress
@@ -207,11 +229,11 @@ def main() -> None:
     failed_videos = []
 
     # Open combined output file
-    with open(COMBINED_FILE, "w", encoding="utf-8") as combined:
-        combined.write(f"# Alex Hormozi - Complete YouTube Channel Transcripts\n")
+    with open(combined_file, "w", encoding="utf-8") as combined:
+        combined.write(f"# {channel_name} - Complete YouTube Channel Transcripts\n")
         combined.write(f"# Total videos found: {total}\n")
         combined.write(f"# Downloaded: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-        combined.write(f"# Source: {CHANNEL_URL}\n\n")
+        combined.write(f"# Source: {channel_url}\n\n")
 
         for idx, (video_id, title) in enumerate(videos, 1):
             progress = f"[{idx}/{total}]"
@@ -223,7 +245,7 @@ def main() -> None:
                 # Save individual file
                 safe_title = sanitize_filename(title)
                 individual_path = os.path.join(
-                    OUTPUT_DIR, f"{safe_title} [{video_id}].txt"
+                    output_dir, f"{safe_title} [{video_id}].txt"
                 )
                 with open(individual_path, "w", encoding="utf-8") as f:
                     f.write(f"Title: {title}\n")
@@ -258,9 +280,10 @@ def main() -> None:
         pass
 
     # Write manifest of all videos
-    manifest_path = os.path.join(OUTPUT_DIR, "_manifest.json")
+    manifest_path = os.path.join(output_dir, "_manifest.json")
     manifest = {
-        "channel_url": CHANNEL_URL,
+        "channel_url": channel_url,
+        "channel_name": channel_name,
         "download_date": time.strftime("%Y-%m-%d %H:%M:%S"),
         "total_videos": total,
         "transcripts_downloaded": success_count,
@@ -280,8 +303,8 @@ def main() -> None:
     print(f"Total videos:          {total}")
     print(f"Transcripts saved:     {success_count}")
     print(f"No transcript:         {fail_count}")
-    print(f"Individual files:      ./{OUTPUT_DIR}/")
-    print(f"Combined file:         ./{COMBINED_FILE}")
+    print(f"Individual files:      ./{output_dir}/")
+    print(f"Combined file:         ./{combined_file}")
     print(f"Manifest:              ./{manifest_path}")
 
     if failed_videos:
