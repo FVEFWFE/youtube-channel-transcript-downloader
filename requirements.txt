@@ -1,6 +1,5 @@
 # requirements.txt
 # ----------------
-# Core libraries needed to run youtube_transcript_downloader.py
+# Core library needed to run youtube_transcript_downloader.py
 
-google-api-python-client>=2.105.0,<3.0.0   # official YouTube Data API wrapper
-youtube-transcript-api>=0.7.0,<1.0.0       # fetches auto/manual captions without OAuth
+yt-dlp>=2024.0.0               # YouTube video listing & subtitle extraction (no API key needed)
